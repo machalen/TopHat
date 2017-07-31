@@ -24,4 +24,6 @@ RUN unzip bowtie2-2.3.2-linux-x86_64.zip
 RUN rm tophat-2.1.1.Linux_x86_64.tar.gz
 RUN rm bowtie2-2.3.2-linux-x86_64.zip
 
-#Add the call of TopHat and bowtie2 into the path variable
+#Add TopHat and bowtie2 to the path variable
+export PATH=$PATH:/tophat-2.1.1.Linux_x86_64
+export PATH=$PATH:/bowtie2-2.3.2
