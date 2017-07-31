@@ -9,6 +9,11 @@ FROM ubuntu:14.04
 #Maintainer and author
 MAINTAINER Magdalena Arnal <marnal@imim.es>
 
+#Install required libraries in ubuntu
+RUN apt-get update \
+    && apt-get install -y \
+       libtbb.so.2
+        
 #Install/update wget, unzip, python in ubuntu
 RUN apt-get update && apt-get install --yes wget unzip python
 
