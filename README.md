@@ -1,2 +1,3 @@
 # TopHat
-TopHat2 
+
+Dockerfile in order to run alignment with TopHat
