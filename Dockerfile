@@ -7,7 +7,7 @@
 FROM ubuntu:14.04
 
 #Mantainer and author
-MANTAINER Magdalena Arnal <marnal@imim.es>
+MAINTAINER Magdalena Arnal <marnal@imim.es>
 
 #Install/update wget, unzip, python in ubuntu
 RUN apt-get update && apt-get install --yes wget unzip python
