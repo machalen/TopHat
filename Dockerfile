@@ -36,5 +36,5 @@ ENV PATH $PATH:/bin/bowtie2-2.3.2
 RUN apt-get purge --yes wget unzip
 
 #Set User and default Working Directory
-#USER 1001:1001
+##USER 1001:1001
 WORKDIR /
