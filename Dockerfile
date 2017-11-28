@@ -35,6 +35,5 @@ ENV PATH $PATH:/bin/bowtie2-2.3.2
 #Remove no installed packages wget and unzip
 RUN apt-get purge --yes wget unzip
 
-#Set User and default Working Directory
-##USER 1001:1001
+#Set Working Directory
 WORKDIR /
